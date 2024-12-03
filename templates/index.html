@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotion and Emoji Detector</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Emotion and Emoji Detector</h1>
+    <form id="emotionForm">
+        <textarea id="text" placeholder="Type something..." rows="5" cols="30"></textarea><br>
+        <button type="submit">Detect Emotion</button>
+    </form>
+    <div id="output">
+        <p><strong>Emotion:</strong> <span id="emotion"></span></p>
+        <p><strong>Emoji:</strong> <span id="emoji" style="font-size: 2rem;"></span></p>
+        <p><strong>Confidence:</strong> <span id="confidence"></span></p>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
